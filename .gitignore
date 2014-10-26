@@ -34,8 +34,6 @@
 *.suo
 *.user
 /devpkg/*
-build_tools/autorevision/Debug/*
-build_tools/autorevision/Release/*
 win32/debug
 win32/release
 

@@ -19,7 +19,7 @@ tauto="${OBJROOT}/autorevision.tmp"
 cd "${SRCROOT}/.."
 
 # Output the autorevision cache or display it in a tarball.
-if ! ./build_tools/autorevision -o "${cauto}" -t sh; then
+if ! autorevision -o "${cauto}" -t sh; then
 	exit ${?}
 fi
 
@@ -40,13 +40,13 @@ fi
 
 
 # Output for src/autorevision.h.
-./build_tools/autorevision -f -o "${cauto}" -t h > "${xauto}"
+autorevision -f -o "${cauto}" -t h > "${xauto}"
 if [[ ! -f "${fauto}" ]] || ! cmp -s "${xauto}" "${fauto}"; then
 	# Only copy `src/autorevision.h` in if there have been changes.
 	cp -a "${xauto}" "${fauto}"
 fi
 
 # Output for info.plist prepossessing.
-./build_tools/autorevision -f -o "${tauto}" -t xcode > "${xauto}"
+autorevision -f -o "${tauto}" -t xcode > "${xauto}"
 
 exit ${?}

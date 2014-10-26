@@ -6,8 +6,6 @@ endif
 
 SUBDIRS = \
 	win32 \
-	3rdparty/miniupnpc \
-	3rdparty/quesoglc \
 	lib/framework \
 	lib/exceptionhandler \
 	lib/script \
@@ -40,14 +38,11 @@ ACLOCAL_AMFLAGS = -I m4
 distcleancheck_listfiles =  find . -type f -print | grep -v 'autorevision.cache'
 
 EXTRA_DIST= \
-	build_tools/autorevision \
 	autogen.sh \
 	config.rpath \
 	configure.ac \
 	pkg/dpkg \
 	macosx \
-	3rdparty/SDL/mac \
-	3rdparty/glm \
 	tools/image/image.cpp \
 	tools/image/configs \
 	tools/image/Image.xcodeproj \

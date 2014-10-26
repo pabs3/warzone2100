@@ -21,7 +21,7 @@ MOCEDFILES = $(MOCHEADER:%.h=%_moc.cpp)
 .PHONY: autorevision.h
 
 autorevision.h autorevision.cache:
-	cd $(top_srcdir) && ./build_tools/autorevision -t h -o $(abs_builddir)/autorevision.cache > $(abs_builddir)/autorevision.h.new
+	cd $(top_srcdir) && autorevision -t h -o $(abs_builddir)/autorevision.cache > $(abs_builddir)/autorevision.h.new
 	cmp -s autorevision.h.new autorevision.h && rm autorevision.h.new || mv -f autorevision.h.new autorevision.h
 
 CLEANFILES = \
@@ -295,9 +295,7 @@ COMMONLIBS = \
 	$(top_builddir)/lib/ivis_opengl/libivis_opengl.a \
 	$(top_builddir)/lib/gamelib/libgamelib.a \
 	$(top_builddir)/lib/framework/libframework.a \
-	$(top_builddir)/lib/exceptionhandler/libexceptionhandler.a \
-	$(top_builddir)/3rdparty/miniupnpc/libminiupnpc.a \
-	$(top_builddir)/3rdparty/quesoglc/libquesoglc.a
+	$(top_builddir)/lib/exceptionhandler/libexceptionhandler.a
 
 if PORTABLE
 warzone2100_portable_SOURCES = $(COMMONSOURCES) $(nodist_COMMONSOURCES)

@@ -1737,8 +1737,6 @@
 		436D248514963CF200BF74E3 /* scrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scrap.h; path = ../lib/sdl/scrap.h; sourceTree = SOURCE_ROOT; };
 		436D248814963E8800BF74E3 /* main_qt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main_qt.cpp; path = ../lib/qtgame/main_qt.cpp; sourceTree = SOURCE_ROOT; };
 		436D24B0149642AD00BF74E3 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = external/SDL/SDL.framework; sourceTree = SOURCE_ROOT; };
-		436D24DE149642EB00BF74E3 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = ../3rdparty/SDL/mac/SDLMain.h; sourceTree = SOURCE_ROOT; };
-		436D24DF149642EB00BF74E3 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = ../3rdparty/SDL/mac/SDLMain.m; sourceTree = SOURCE_ROOT; };
 		4371B60D11D93FD0005A67AB /* pngpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pngpriv.h; path = external/libpng/pngpriv.h; sourceTree = SOURCE_ROOT; };
 		4377CF1416F7E89B008B1083 /* listwidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = listwidget.cpp; path = ../lib/widget/listwidget.cpp; sourceTree = SOURCE_ROOT; };
 		4377CF1516F7E89C008B1083 /* listwidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = listwidget.h; path = ../lib/widget/listwidget.h; sourceTree = SOURCE_ROOT; };
@@ -1804,28 +1802,6 @@
 		43B9DE9F1384675E004C7351 /* Base-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Base-Framework.xcconfig"; path = "configs/Base-Framework.xcconfig"; sourceTree = SOURCE_ROOT; };
 		43BE75E811124BB4007DF934 /* wavecast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wavecast.cpp; path = ../src/wavecast.cpp; sourceTree = SOURCE_ROOT; };
 		43BE75E911124BB4007DF934 /* wavecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wavecast.h; path = ../src/wavecast.h; sourceTree = SOURCE_ROOT; };
-		43C18F7A114FF38B0028741B /* bsdqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bsdqueue.h; path = ../3rdparty/miniupnpc/bsdqueue.h; sourceTree = SOURCE_ROOT; };
-		43C18F7C114FF38B0028741B /* codelength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codelength.h; path = ../3rdparty/miniupnpc/codelength.h; sourceTree = SOURCE_ROOT; };
-		43C18F7D114FF38B0028741B /* declspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = declspec.h; path = ../3rdparty/miniupnpc/declspec.h; sourceTree = SOURCE_ROOT; };
-		43C18F7E114FF38B0028741B /* igd_desc_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = igd_desc_parse.c; path = ../3rdparty/miniupnpc/igd_desc_parse.c; sourceTree = SOURCE_ROOT; };
-		43C18F7F114FF38B0028741B /* igd_desc_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = igd_desc_parse.h; path = ../3rdparty/miniupnpc/igd_desc_parse.h; sourceTree = SOURCE_ROOT; };
-		43C18F88114FF38B0028741B /* minisoap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = minisoap.c; path = ../3rdparty/miniupnpc/minisoap.c; sourceTree = SOURCE_ROOT; };
-		43C18F89114FF38B0028741B /* minisoap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minisoap.h; path = ../3rdparty/miniupnpc/minisoap.h; sourceTree = SOURCE_ROOT; };
-		43C18F8A114FF38B0028741B /* minissdpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = minissdpc.c; path = ../3rdparty/miniupnpc/minissdpc.c; sourceTree = SOURCE_ROOT; };
-		43C18F8B114FF38B0028741B /* minissdpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minissdpc.h; path = ../3rdparty/miniupnpc/minissdpc.h; sourceTree = SOURCE_ROOT; };
-		43C18F8C114FF38B0028741B /* miniupnpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = miniupnpc.c; path = ../3rdparty/miniupnpc/miniupnpc.c; sourceTree = SOURCE_ROOT; };
-		43C18F8E114FF38B0028741B /* miniupnpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miniupnpc.h; path = ../3rdparty/miniupnpc/miniupnpc.h; sourceTree = SOURCE_ROOT; };
-		43C18F90114FF38B0028741B /* miniupnpcstrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miniupnpcstrings.h; path = ../3rdparty/miniupnpc/miniupnpcstrings.h; sourceTree = SOURCE_ROOT; };
-		43C18F92114FF38B0028741B /* miniwget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = miniwget.c; path = ../3rdparty/miniupnpc/miniwget.c; sourceTree = SOURCE_ROOT; };
-		43C18F93114FF38B0028741B /* miniwget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miniwget.h; path = ../3rdparty/miniupnpc/miniwget.h; sourceTree = SOURCE_ROOT; };
-		43C18F94114FF38B0028741B /* minixml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = minixml.c; path = ../3rdparty/miniupnpc/minixml.c; sourceTree = SOURCE_ROOT; };
-		43C18F95114FF38B0028741B /* minixml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minixml.h; path = ../3rdparty/miniupnpc/minixml.h; sourceTree = SOURCE_ROOT; };
-		43C18FA1114FF38B0028741B /* upnpcommands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = upnpcommands.c; path = ../3rdparty/miniupnpc/upnpcommands.c; sourceTree = SOURCE_ROOT; };
-		43C18FA2114FF38B0028741B /* upnpcommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = upnpcommands.h; path = ../3rdparty/miniupnpc/upnpcommands.h; sourceTree = SOURCE_ROOT; };
-		43C18FA3114FF38B0028741B /* upnperrors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = upnperrors.c; path = ../3rdparty/miniupnpc/upnperrors.c; sourceTree = SOURCE_ROOT; };
-		43C18FA4114FF38B0028741B /* upnperrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = upnperrors.h; path = ../3rdparty/miniupnpc/upnperrors.h; sourceTree = SOURCE_ROOT; };
-		43C18FA5114FF38B0028741B /* upnpreplyparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = upnpreplyparse.c; path = ../3rdparty/miniupnpc/upnpreplyparse.c; sourceTree = SOURCE_ROOT; };
-		43C18FA6114FF38B0028741B /* upnpreplyparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = upnpreplyparse.h; path = ../3rdparty/miniupnpc/upnpreplyparse.h; sourceTree = SOURCE_ROOT; };
 		43C18FA8114FF38B0028741B /* netlog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = netlog.cpp; path = ../lib/netplay/netlog.cpp; sourceTree = SOURCE_ROOT; };
 		43C18FA9114FF38B0028741B /* netlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netlog.h; path = ../lib/netplay/netlog.h; sourceTree = SOURCE_ROOT; };
 		43C18FAA114FF38B0028741B /* netplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = netplay.cpp; path = ../lib/netplay/netplay.cpp; sourceTree = SOURCE_ROOT; };
@@ -1850,43 +1826,6 @@
 		43C3B9C0118BEBE0000BBE59 /* barkmel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = barkmel.c; path = external/libvorbis/lib/barkmel.c; sourceTree = SOURCE_ROOT; };
 		43C3B9C1118BEBE0000BBE59 /* psytune.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = psytune.c; path = external/libvorbis/lib/psytune.c; sourceTree = SOURCE_ROOT; };
 		43C3B9C2118BEBE0000BBE59 /* tone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tone.c; path = external/libvorbis/lib/tone.c; sourceTree = SOURCE_ROOT; };
-		43CB73D3181E0E0100D1D1DD /* miniupnpctypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miniupnpctypes.h; path = ../3rdparty/miniupnpc/miniupnpctypes.h; sourceTree = SOURCE_ROOT; };
-		43CB73D4181E0E0100D1D1DD /* portlistingparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = portlistingparse.c; path = ../3rdparty/miniupnpc/portlistingparse.c; sourceTree = SOURCE_ROOT; };
-		43CB73D5181E0E0100D1D1DD /* portlistingparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portlistingparse.h; path = ../3rdparty/miniupnpc/portlistingparse.h; sourceTree = SOURCE_ROOT; };
-		43CB73D6181E0E0100D1D1DD /* receivedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = receivedata.c; path = ../3rdparty/miniupnpc/receivedata.c; sourceTree = SOURCE_ROOT; };
-		43CB73D7181E0E0100D1D1DD /* receivedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = receivedata.h; path = ../3rdparty/miniupnpc/receivedata.h; sourceTree = SOURCE_ROOT; };
-		43CCDC9414BA3AC800B21363 /* glc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glc.h; path = ../3rdparty/quesoglc/GL/glc.h; sourceTree = SOURCE_ROOT; };
-		43CCDC9614BA3B2100B21363 /* context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = context.c; path = ../3rdparty/quesoglc/context.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9714BA3B2100B21363 /* database.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = database.c; path = ../3rdparty/quesoglc/database.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9814BA3B2100B21363 /* except.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = except.c; path = ../3rdparty/quesoglc/except.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9914BA3B2100B21363 /* except.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = except.h; path = ../3rdparty/quesoglc/except.h; sourceTree = SOURCE_ROOT; };
-		43CCDC9A14BA3B2100B21363 /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = font.c; path = ../3rdparty/quesoglc/font.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9B14BA3B2100B21363 /* global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = global.c; path = ../3rdparty/quesoglc/global.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9C14BA3B2100B21363 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = internal.h; path = ../3rdparty/quesoglc/internal.h; sourceTree = SOURCE_ROOT; };
-		43CCDC9D14BA3B2100B21363 /* master.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = master.c; path = ../3rdparty/quesoglc/master.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9E14BA3B2100B21363 /* measure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = measure.c; path = ../3rdparty/quesoglc/measure.c; sourceTree = SOURCE_ROOT; };
-		43CCDC9F14BA3B2100B21363 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = ../3rdparty/quesoglc/misc.c; sourceTree = SOURCE_ROOT; };
-		43CCDCA014BA3B2100B21363 /* oarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = oarray.c; path = ../3rdparty/quesoglc/oarray.c; sourceTree = SOURCE_ROOT; };
-		43CCDCA114BA3B2100B21363 /* oarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oarray.h; path = ../3rdparty/quesoglc/oarray.h; sourceTree = SOURCE_ROOT; };
-		43CCDCA214BA3B2100B21363 /* ocharmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ocharmap.c; path = ../3rdparty/quesoglc/ocharmap.c; sourceTree = SOURCE_ROOT; };
-		43CCDCA314BA3B2100B21363 /* ocharmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ocharmap.h; path = ../3rdparty/quesoglc/ocharmap.h; sourceTree = SOURCE_ROOT; };
-		43CCDCA414BA3B2100B21363 /* ocontext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ocontext.c; path = ../3rdparty/quesoglc/ocontext.c; sourceTree = SOURCE_ROOT; };
-		43CCDCA514BA3B2100B21363 /* ocontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ocontext.h; path = ../3rdparty/quesoglc/ocontext.h; sourceTree = SOURCE_ROOT; };
-		43CCDCA614BA3B2100B21363 /* ofacedesc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ofacedesc.c; path = ../3rdparty/quesoglc/ofacedesc.c; sourceTree = SOURCE_ROOT; };
-		43CCDCA714BA3B2100B21363 /* ofacedesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofacedesc.h; path = ../3rdparty/quesoglc/ofacedesc.h; sourceTree = SOURCE_ROOT; };
-		43CCDCA814BA3B2100B21363 /* ofont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ofont.c; path = ../3rdparty/quesoglc/ofont.c; sourceTree = SOURCE_ROOT; };
-		43CCDCA914BA3B2100B21363 /* ofont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofont.h; path = ../3rdparty/quesoglc/ofont.h; sourceTree = SOURCE_ROOT; };
-		43CCDCAA14BA3B2100B21363 /* oglyph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = oglyph.c; path = ../3rdparty/quesoglc/oglyph.c; sourceTree = SOURCE_ROOT; };
-		43CCDCAB14BA3B2100B21363 /* oglyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oglyph.h; path = ../3rdparty/quesoglc/oglyph.h; sourceTree = SOURCE_ROOT; };
-		43CCDCAC14BA3B2100B21363 /* omaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = omaster.c; path = ../3rdparty/quesoglc/omaster.c; sourceTree = SOURCE_ROOT; };
-		43CCDCAD14BA3B2100B21363 /* omaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omaster.h; path = ../3rdparty/quesoglc/omaster.h; sourceTree = SOURCE_ROOT; };
-		43CCDCAE14BA3B2100B21363 /* qglc_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qglc_config.h; path = ../3rdparty/quesoglc/qglc_config.h; sourceTree = SOURCE_ROOT; };
-		43CCDCAF14BA3B2100B21363 /* render.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = render.c; path = ../3rdparty/quesoglc/render.c; sourceTree = SOURCE_ROOT; };
-		43CCDCB014BA3B2100B21363 /* scalable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scalable.c; path = ../3rdparty/quesoglc/scalable.c; sourceTree = SOURCE_ROOT; };
-		43CCDCB114BA3B2100B21363 /* texture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = texture.c; path = ../3rdparty/quesoglc/texture.c; sourceTree = SOURCE_ROOT; };
-		43CCDCB214BA3B2100B21363 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = texture.h; path = ../3rdparty/quesoglc/texture.h; sourceTree = SOURCE_ROOT; };
-		43CCDCB314BA3B2100B21363 /* transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transform.c; path = ../3rdparty/quesoglc/transform.c; sourceTree = SOURCE_ROOT; };
-		43CCDCB414BA3B2100B21363 /* unicode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unicode.c; path = ../3rdparty/quesoglc/unicode.c; sourceTree = SOURCE_ROOT; };
 		43CCDD1B14BA474E00B21363 /* fribidi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fribidi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CCDD5414BA4DA400B21363 /* fribidi_char_sets_cap_rtl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fribidi_char_sets_cap_rtl.c; path = external/fribidi/fribidi_char_sets_cap_rtl.c; sourceTree = SOURCE_ROOT; };
 		43CCDD5514BA4DA400B21363 /* fribidi_char_sets_cap_rtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fribidi_char_sets_cap_rtl.h; path = external/fribidi/fribidi_char_sets_cap_rtl.h; sourceTree = SOURCE_ROOT; };
@@ -1927,8 +1866,6 @@
 		43CEAE35141D72850001637B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		43D180611336B536001906EB /* wzfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wzfs.h; path = ../lib/framework/wzfs.h; sourceTree = SOURCE_ROOT; };
 		43D180AF1336B99C001906EB /* physfs_casefolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_casefolding.h; path = external/physfs/physfs_casefolding.h; sourceTree = SOURCE_ROOT; };
-		43D338561364F5A8005F6725 /* connecthostport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = connecthostport.c; path = ../3rdparty/miniupnpc/connecthostport.c; sourceTree = SOURCE_ROOT; };
-		43D338571364F5A8005F6725 /* connecthostport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connecthostport.h; path = ../3rdparty/miniupnpc/connecthostport.h; sourceTree = SOURCE_ROOT; };
 		43D6167F12048D2D004B9630 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Resources/wzlocal/ko.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		43DA667414FDDA44004B8B1A /* cursorselection */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cursorselection; path = ../src/cursorselection; sourceTree = SOURCE_ROOT; };
 		43DC909C175F79B800B9F69E /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
@@ -3277,43 +3214,6 @@
 			);
 			name = lib;
 			sourceTree = "<group>";
-		};
-		43C18F79114FF38B0028741B /* MiniUPnPc sources */ = {
-			isa = PBXGroup;
-			children = (
-				43CB73D3181E0E0100D1D1DD /* miniupnpctypes.h */,
-				43CB73D4181E0E0100D1D1DD /* portlistingparse.c */,
-				43CB73D5181E0E0100D1D1DD /* portlistingparse.h */,
-				43CB73D6181E0E0100D1D1DD /* receivedata.c */,
-				43CB73D7181E0E0100D1D1DD /* receivedata.h */,
-				43D338561364F5A8005F6725 /* connecthostport.c */,
-				43D338571364F5A8005F6725 /* connecthostport.h */,
-				43C18F7A114FF38B0028741B /* bsdqueue.h */,
-				43C18F7C114FF38B0028741B /* codelength.h */,
-				43C18F7D114FF38B0028741B /* declspec.h */,
-				43C18F7E114FF38B0028741B /* igd_desc_parse.c */,
-				43C18F7F114FF38B0028741B /* igd_desc_parse.h */,
-				43C18F88114FF38B0028741B /* minisoap.c */,
-				43C18F89114FF38B0028741B /* minisoap.h */,
-				43C18F8A114FF38B0028741B /* minissdpc.c */,
-				43C18F8B114FF38B0028741B /* minissdpc.h */,
-				43C18F8C114FF38B0028741B /* miniupnpc.c */,
-				43C18F8E114FF38B0028741B /* miniupnpc.h */,
-				43C18F90114FF38B0028741B /* miniupnpcstrings.h */,
-				43C18F92114FF38B0028741B /* miniwget.c */,
-				43C18F93114FF38B0028741B /* miniwget.h */,
-				43C18F94114FF38B0028741B /* minixml.c */,
-				43C18F95114FF38B0028741B /* minixml.h */,
-				43C18FA1114FF38B0028741B /* upnpcommands.c */,
-				43C18FA2114FF38B0028741B /* upnpcommands.h */,
-				43C18FA3114FF38B0028741B /* upnperrors.c */,
-				43C18FA4114FF38B0028741B /* upnperrors.h */,
-				43C18FA5114FF38B0028741B /* upnpreplyparse.c */,
-				43C18FA6114FF38B0028741B /* upnpreplyparse.h */,
-			);
-			name = "MiniUPnPc sources";
-			path = ../3rdparty/miniupnpc;
-			sourceTree = SOURCE_ROOT;
 		};
 		43C3B967118BE7EC000BBE59 /* lib */ = {
 			isa = PBXGroup;

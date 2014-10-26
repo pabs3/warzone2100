@@ -49,9 +49,6 @@ else
 fi
 
 
-# LaTeX based docs
-export TEXINPUTS=${TEXINPUTS}:${SRCROOT}/../3rdparty/texinputs/
-
 # javascript doc
 grep src/qtscript.cpp -e '//==' | sed 's://==::' > doc/globals.tex
 grep src/qtscriptfuncs.cpp -e '//==' | sed 's://==::' >> doc/globals.tex
